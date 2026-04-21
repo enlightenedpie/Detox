@@ -22,7 +22,8 @@
     "package:android": "node scripts/ci.android-release.js",
     "package:ios": "scripts/ci.ios-release.sh",
     "ci:ios": "sh ./scripts/ci.ios.sh",
-    "ci:android": "sh ./scripts/ci.android.sh"
+    "ci:android": "sh ./scripts/ci.android.sh",
+    "updateFork": "git fetch upstream && git merge upstream/master main"
   },
   "repository": {
     "type": "git",
